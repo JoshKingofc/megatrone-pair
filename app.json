@@ -1,0 +1,17 @@
+
+    "name": "flax Web Pair",
+    "description": "Web Session Generator",
+    "logo": "https://files.catbox.moe/mi2k2o.jpg",
+    "repository": "https://github.com/FlaxMalcom/CRISES-MD V1_pair",
+    "keywords": ["FLAX "],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      }
+    }   
+
+}
